@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.baiyyy.byhjl.view.MyMatrixView
+        android:id="@+id/my_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <Button
+        android:layout_gravity="bottom"
+        android:text="向左倾斜"
+        android:id="@+id/left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="向右倾斜"
+        android:id="@+id/right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="放大"
+        android:id="@+id/expand_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="缩小"
+        android:id="@+id/reduce_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

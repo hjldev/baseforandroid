@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/main_ll"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <Button
+        android:id="@+id/start_notification"
+        android:text="启动notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/stop_notification"
+        android:text="取消notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/selector_edit_text"/>
+    <ImageView
+        android:src="@drawable/layer_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:src="@drawable/clip_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <ImageView
+        android:id="@+id/iv_anim"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:text="下一张图片"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/show_iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/sdk_int"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
